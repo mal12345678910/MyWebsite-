@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F5F2;
+    color: #3E2723;
+}
+
+/* Header */
+header {
+    background: #8D6E63;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://images.pexels.com/photos/918327/pexels-photo-918327.jpeg') no-repeat center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 1.5em;
+}
+
+/* Sections */
+.content {
+    padding: 50px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2em;
+    color: #5D4037;
+}
+
+.content img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Grid Layout */
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #D84315;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #BF360C;
+}
+
+/* Footer */
+footer {
+    background: #5D4037;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
